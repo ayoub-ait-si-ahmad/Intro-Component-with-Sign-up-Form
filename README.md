@@ -37,10 +37,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [link](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-feQk_FkRlZ)
+- Live Site URL: [link](https://mysignupformcomponent.netlify.app/)
 
-## My process
 
 ### Built with
 
@@ -71,6 +70,5 @@ In the future, I'm excited to master responsive design and create captivating an
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ait-si-ahmad-ayoub](https://www.frontendmentor.io/profile/ait-si-ahmad-ayoub)
 - Linkedin - [@ayoub-ait-si-ahmad](https://www.linkedin.com/in/ayoub-ait-si-ahmad/)
