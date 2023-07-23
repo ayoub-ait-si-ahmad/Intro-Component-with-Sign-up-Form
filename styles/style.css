@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+
+:root {
+    --primary: rgba(255, 121, 121, 1);
+    --secondary: rgba(56, 204, 139, 1);
+    --third: rgba(94, 84, 164, 1);
+    --fourth: rgba(61, 59, 72, 1);
+    --lightgray: rgba(222, 222, 222, 1);
+    --lavender-blue: rgba(186, 183, 212, 1);
+    --green:rgba(119, 226, 179, 1);
+    --white: hsla(0, 0%, 100%, 1);
+
+}
+
+/* it's the correct way ?*/
+::placeholder {
+    color: var(--fourth);
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-weight: 600;
+    opacity: 0.75;
+    /* padding-left: 1.21rem; */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../images/bg-intro-mobile.png');
+    background-color: var(--primary);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    /* color: black; */
+}
+
+.main__section {
+    margin: 5.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.main__section>div {
+    min-width: 20.4375rem;
+}
+
+@media (min-width: 1280px) {
+    body {
+        background-image: url('../images/bg-intro-desktop.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .main__section {
+        margin: 7.56rem 10.31rem;
+        gap: 2.81rem;
+    }
+
+    .main__section>div {
+        max-width: 33.75rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .main__section {
+
+        flex-direction: row;
+
+    }
+
+    .main__section>div {
+        width: 33.75rem;
+    }
+
+}
